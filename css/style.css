@@ -5,6 +5,7 @@ body, html {
 h1 {
    font-family: 'Nanum Gothic Coding', monospace;
     font-size: 14vh;
+    padding: 20px;
 }
 
 h2 {
@@ -82,6 +83,28 @@ p {
 .black-transparent {
     background-color: rgba(0,0,0,0.5)
 }
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
 
 /*Full screen video*/
 
